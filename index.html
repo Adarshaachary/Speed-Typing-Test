@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="speedTypingTest" class="container py-4">
+        <h1>Speed<br /> Typing Test</h1>
+        <p class="para">On your fingers lets set Go!</p>
+        <div class="d-flex flex-row">
+            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" class="size" /><p id="timer" class = "timerPara">0</p>
+            <p class="clock"> seconds</p>
+        </div>
+
+        <div class="innerinput">
+            <p id="quoteDisplay"></p>
+            <br />
+            <textarea placeholder="Type here" id="quoteInput" class="quoteInput"></textarea>
+        </div>
+        <p id="result" class = "result"></p>
+        <div class="spacing-btn">
+            <button type="button" id="startBtn" class="btn btn-success">Start</button>
+            <button type="submit" id="submitBtn" class="submitBtn">Submit</button>
+            <button id="resetBtn" class="resetBtn">Reset</button>
+            <button id="historyBtn" class="btn btn-info">Previous Attempts</button>
+            <div id="historySection" class="mt-5" style="display: none;">
+                <h3 class="mb-4">Previous Attempts</h3>
+                <div id="historyList"></div>
+            </div>
+    </div>
+    <div id="spinner" class="spinner-border text-primary d-none" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
