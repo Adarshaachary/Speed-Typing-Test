@@ -6,6 +6,8 @@ let startBtn = document.getElementById("startBtn");
 let submitBtn = document.getElementById("submitBtn");
 let resetBtn = document.getElementById("resetBtn");
 let historyBtn = document.getElementById("historyBtn");
+let spinnerContainer = document.getElementById("spinnerContainer");
+spinnerContainer.querySelector("p").textContent = "Preparing typing challenge...";
 let historySection = document.getElementById("historySection");
 let historyList = document.getElementById("historyList");
 let attempts = [];
@@ -37,7 +39,6 @@ function stopTimer() {
 let spinner = document.getElementById("spinner");
 
 function loadQuote() {
-    spinner.classList.remove("d-none");
 
     fetch(url)
         .then(function(response) {
@@ -58,7 +59,6 @@ function loadQuote() {
 
         })
         .catch(function() {
-            spinner.classList.add("d-none");
             quoteDisplay.textContent = "Failed to load quote.";
         });
 }
