@@ -117,3 +117,31 @@ Adarsha
 ## License
 
 This project is open-source and available for learning and educational purposes.
+
+
+
+
+
+
+
+## Live Demo
+
+Experience the Speed Typing Test application live:
+
+🔗 **Website:**
+https://adarshaachary.github.io/Speed-Typing-Test/
+
+---
+
+## Features
+
+* Random quote generation using Fetch API.
+* Start button to begin the typing test.
+* Timer starts only when the Start button is clicked.
+* Submit button verifies the typed text.
+* Reset functionality.
+* Previous attempts history with toggle option.
+* Responsive design for desktop and mobile devices.
+* Loading spinner while fetching quotes.
+
+---
