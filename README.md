@@ -1,6 +1,9 @@
 # Speed Typing Test
 
-A responsive web-based Speed Typing Test application built using HTML, CSS, JavaScript, and Bootstrap. This application generates random quotes and measures the time taken by the user to type the quote correctly.
+🔗 **Live Demo:**
+https://adarshaachary.github.io/Speed-Typing-Test/
+
+A responsive web-based Speed Typing Test application built using HTML, CSS, JavaScript, Bootstrap, and Fetch API. The application generates random quotes and measures the time taken by the user to type them correctly.
 
 ---
 
@@ -8,12 +11,12 @@ A responsive web-based Speed Typing Test application built using HTML, CSS, Java
 
 * Random quote generation using Fetch API.
 * Start button to begin the typing test.
-* Timer starts only when the Start button is clicked.
+* Timer starts only after clicking the Start button.
 * Submit button checks whether the typed text matches the generated quote.
 * Timer continues running until the quote is typed correctly.
 * Reset button clears the current test and resets the timer.
 * Loading spinner while fetching quotes.
-* Previous Attempts section with toggle functionality.
+* Previous attempts history with show/hide toggle functionality.
 * Stores completed attempts with date and time.
 * Responsive design for desktop, tablet, and mobile devices.
 * User-friendly interface built with Bootstrap.
@@ -27,6 +30,7 @@ A responsive web-based Speed Typing Test application built using HTML, CSS, Java
 * JavaScript (ES6)
 * Bootstrap 4
 * Fetch API
+* Random Quote API
 
 ---
 
@@ -35,6 +39,8 @@ A responsive web-based Speed Typing Test application built using HTML, CSS, Java
 ```text
 Speed-Typing-Test/
 │
+├── Images/
+│   └── clock-img.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -48,7 +54,7 @@ Speed-Typing-Test/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Speed-Typing-Test.git
+git clone https://github.com/Adarshaachary/Speed-Typing-Test.git
 ```
 
 2. Open the project folder.
@@ -103,45 +109,18 @@ https://apis.ccbp.in/random-quote
 * Best score tracking.
 * Local Storage support for persistent history.
 * Difficulty levels.
-* Leaderboard.
 * Theme customization.
 
 ---
 
 ## Author
 
-Adarsha
+**Adarsha Achary**
+
+GitHub: https://github.com/Adarshaachary
 
 ---
 
 ## License
 
 This project is open-source and available for learning and educational purposes.
-
-
-
-
-
-
-
-## Live Demo
-
-Experience the Speed Typing Test application live:
-
-🔗 **Website:**
-https://adarshaachary.github.io/Speed-Typing-Test/
-
----
-
-## Features
-
-* Random quote generation using Fetch API.
-* Start button to begin the typing test.
-* Timer starts only when the Start button is clicked.
-* Submit button verifies the typed text.
-* Reset functionality.
-* Previous attempts history with toggle option.
-* Responsive design for desktop and mobile devices.
-* Loading spinner while fetching quotes.
-
----
