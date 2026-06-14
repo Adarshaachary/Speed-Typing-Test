@@ -2,7 +2,7 @@
 
 .container {
     background: linear-gradient(to right, #f2ebfe, #dac0ff);
-    height: 113vh;
+    height: auto;
     width: 50%;
 }
 
