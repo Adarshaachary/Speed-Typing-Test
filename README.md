@@ -5,9 +5,9 @@ https://adarshaachary.github.io/Speed-Typing-Test/
 
 ## 📖 Overview
 
-Speed Typing Test is a modern, responsive web application that helps users improve their typing speed and accuracy. The application fetches random quotes from a public API, starts a timer when the test begins, validates the typed text, and records successful attempts with timestamps.
+Speed Typing Test is a modern, responsive web application that helps users improve their typing speed and accuracy. The application fetches random quotes from a public API, starts a timer when the test begins, validates the user's input, and records successful attempts with timestamps.
 
-Designed with a clean and modern interface, the project demonstrates the use of HTML, CSS, JavaScript, Bootstrap, Fetch API, and DOM manipulation.
+This project demonstrates the use of HTML, CSS, JavaScript, Bootstrap, Fetch API, asynchronous programming, DOM manipulation, and responsive web design.
 
 ---
 
@@ -20,7 +20,7 @@ Designed with a clean and modern interface, the project demonstrates the use of 
 - 🔄 Reset functionality
 - 📜 Previous attempts history
 - 📅 Records completion time with date and timestamp
-- ⌨️ Automatically focuses the input area when a new quote loads
+- 🎯 Auto-focuses the typing area after loading a quote
 - 🔄 Loading spinner while fetching quotes
 - 📱 Responsive design for desktop, tablet, and mobile devices
 
@@ -41,7 +41,7 @@ Designed with a clean and modern interface, the project demonstrates the use of 
 
 ## 📂 Project Structure
 
-```
+```text
 Speed-Typing-Test/
 │
 ├── index.html
@@ -54,17 +54,21 @@ Speed-Typing-Test/
 
 ## 🚀 How to Run
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Adarshaachary/Speed-Typing-Test.git
 ```
 
-2. Navigate to the project folder.
+### 2. Navigate to the project folder
 
-3. Open `index.html` in your preferred web browser.
+```bash
+cd Speed-Typing-Test
+```
 
-4. Click **Start** to begin the typing challenge.
+### 3. Open the project
+
+Open `index.html` in your preferred web browser.
 
 ---
 
@@ -79,42 +83,46 @@ git clone https://github.com/Adarshaachary/Speed-Typing-Test.git
 ### 📤 Submit
 
 - Compares the typed text with the displayed quote
-- Displays the completion time upon success
+- Displays the completion time upon successful typing
 - Shows an error message if the input doesn't match
 
 ### 🔄 Reset
 
 - Stops the timer
-- Clears the quote and input field
+- Clears the displayed quote
+- Clears the typing area
 - Resets the timer to zero
 
 ### 📜 Previous Attempts
 
 - Displays all completed attempts
-- Shows completion time with timestamp
+- Shows completion time and timestamp
 - Toggle option to show or hide history
 
 ---
 
 ## 🌐 API Used
 
-**DummyJSON Quotes API**
+### DummyJSON Quotes API
 
+```
 https://dummyjson.com/quotes/random
+```
 
 ---
 
-## 🎯 Learning Outcomes
+## 📚 Learning Outcomes
 
 This project demonstrates:
 
 - DOM Manipulation
 - Event Handling
 - Fetch API
+- Promises
 - Asynchronous JavaScript
 - Timers using `setInterval()`
-- Responsive Web Design
 - Dynamic UI Updates
+- Responsive Web Design
 - JavaScript Arrays
 - Conditional Rendering
 
@@ -127,9 +135,10 @@ This project demonstrates:
 - 🏆 Best score tracking
 - 💾 Local Storage support
 - 🎚️ Difficulty levels
-- 🌙 Dark/Light theme toggle
+- 🌙 Dark/Light theme
 - 📈 Typing statistics dashboard
-- 🔥 Leaderboard system
+- 🔥 Global leaderboard
+- 🎵 Typing sound effects
 
 ---
 
