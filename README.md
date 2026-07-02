@@ -1,46 +1,49 @@
-# Speed Typing Test
+# ⌨️ Speed Typing Test
 
-🔗 **Live Demo:**
+🔗 **Live Demo:**  
 https://adarshaachary.github.io/Speed-Typing-Test/
 
-A responsive web-based Speed Typing Test application built using HTML, CSS, JavaScript, Bootstrap, and Fetch API. The application generates random quotes and measures the time taken by the user to type them correctly.
+## 📖 Overview
+
+Speed Typing Test is a modern, responsive web application that helps users improve their typing speed and accuracy. The application fetches random quotes from a public API, starts a timer when the test begins, validates the typed text, and records successful attempts with timestamps.
+
+Designed with a clean and modern interface, the project demonstrates the use of HTML, CSS, JavaScript, Bootstrap, Fetch API, and DOM manipulation.
 
 ---
 
-## Features
+## ✨ Features
 
-* Random quote generation using Fetch API.
-* Start button to begin the typing test.
-* Timer starts only after clicking the Start button.
-* Submit button checks whether the typed text matches the generated quote.
-* Timer continues running until the quote is typed correctly.
-* Reset button clears the current test and resets the timer.
-* Loading spinner while fetching quotes.
-* Previous attempts history with show/hide toggle functionality.
-* Stores completed attempts with date and time.
-* Responsive design for desktop, tablet, and mobile devices.
-* User-friendly interface built with Bootstrap.
-
----
-
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Bootstrap 4
-* Fetch API
-* Random Quote API
+- 🚀 Modern and responsive user interface
+- 📝 Random quote generation using Fetch API
+- ⏱️ Real-time typing timer
+- ✅ Instant validation of typed text
+- 🔄 Reset functionality
+- 📜 Previous attempts history
+- 📅 Records completion time with date and timestamp
+- ⌨️ Automatically focuses the input area when a new quote loads
+- 🔄 Loading spinner while fetching quotes
+- 📱 Responsive design for desktop, tablet, and mobile devices
 
 ---
 
-## Project Structure
+## 🛠️ Technologies Used
 
-```text
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap 4
+- Fetch API
+- Font Awesome
+- Google Fonts (Poppins)
+- DummyJSON Quotes API
+
+---
+
+## 📂 Project Structure
+
+```
 Speed-Typing-Test/
 │
-├── Images/
-│   └── clock-img.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -49,78 +52,96 @@ Speed-Typing-Test/
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/Adarshaachary/Speed-Typing-Test.git
 ```
 
-2. Open the project folder.
+2. Navigate to the project folder.
 
-3. Open `index.html` in any web browser.
+3. Open `index.html` in your preferred web browser.
 
-4. Click the **Start** button to begin the test.
-
----
-
-## Functionalities
-
-### Start Button
-
-* Generates a random quote.
-* Starts the timer from 0 seconds.
-
-### Submit Button
-
-* Verifies the typed text with the displayed quote.
-* Displays the time taken when the quote is typed correctly.
-* Shows an error message if the text does not match.
-
-### Reset Button
-
-* Stops the timer.
-* Resets the timer to 0.
-* Clears the quote and input field.
-
-### Previous Attempts
-
-* Displays previously completed attempts.
-* Toggle functionality to show and hide history.
-* Stores the completion time and timestamp of each successful attempt.
+4. Click **Start** to begin the typing challenge.
 
 ---
 
-## API Used
+## ⚙️ Functionality
 
-Random Quote API:
+### ▶️ Start
 
-```text
-https://apis.ccbp.in/random-quote
-```
+- Fetches a random quote
+- Resets the timer
+- Starts counting the elapsed time
+
+### 📤 Submit
+
+- Compares the typed text with the displayed quote
+- Displays the completion time upon success
+- Shows an error message if the input doesn't match
+
+### 🔄 Reset
+
+- Stops the timer
+- Clears the quote and input field
+- Resets the timer to zero
+
+### 📜 Previous Attempts
+
+- Displays all completed attempts
+- Shows completion time with timestamp
+- Toggle option to show or hide history
 
 ---
 
-## Future Enhancements
+## 🌐 API Used
 
-* Words Per Minute (WPM) calculation.
-* Accuracy percentage.
-* Best score tracking.
-* Local Storage support for persistent history.
-* Difficulty levels.
-* Theme customization.
+**DummyJSON Quotes API**
+
+https://dummyjson.com/quotes/random
 
 ---
 
-## Author
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- DOM Manipulation
+- Event Handling
+- Fetch API
+- Asynchronous JavaScript
+- Timers using `setInterval()`
+- Responsive Web Design
+- Dynamic UI Updates
+- JavaScript Arrays
+- Conditional Rendering
+
+---
+
+## 🚀 Future Enhancements
+
+- 📊 Words Per Minute (WPM) calculation
+- 🎯 Accuracy percentage
+- 🏆 Best score tracking
+- 💾 Local Storage support
+- 🎚️ Difficulty levels
+- 🌙 Dark/Light theme toggle
+- 📈 Typing statistics dashboard
+- 🔥 Leaderboard system
+
+---
+
+## 👨‍💻 Author
 
 **Adarsha Achary**
 
-GitHub: https://github.com/Adarshaachary
+GitHub:  
+https://github.com/Adarshaachary
 
 ---
 
-## License
+## 📄 License
 
-This project is open-source and available for learning and educational purposes.
+This project is open source and available for learning, educational, and personal portfolio purposes.
